@@ -1,7 +1,9 @@
 Titanic prediction by KNN and XGBoost
 ================
-ChungHao Lee
+Chung-Hao Lee
 7/24/2021
+
+<!-- README.md is generated from README.Rmd. Please edit that file --> 
 
 ``` r
 library("tidyverse")
