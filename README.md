@@ -70,11 +70,11 @@ knitr::opts_chunk$set(
 
 ``` r
 df_titanic <-
-  read_csv("/Users/yginger/Desktop/GitHub_repo/Data Analytics/Titanic competition/train.csv") %>% 
+  read_csv("/.../train.csv") %>% 
   rename_all(tolower) 
 
 df_titanic_competition <- 
-  read_csv("/Users/yginger/Desktop/GitHub_repo/Data Analytics/Titanic competition/test.csv") %>% 
+  read_csv("/.../test.csv") %>% 
   rename_all(tolower) 
 ```
 
